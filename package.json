@@ -16,7 +16,6 @@
   "dependencies": {
     "@hono/zod-validator": "^0.7.2",
     "hono": "^4.8.12",
-    "rollup-plugin-visualizer": "^6.0.3",
     "zod": "^4.1.8"
   },
   "devDependencies": {
@@ -28,6 +27,7 @@
     "esbuild": "^0.25.8",
     "rollup": "^4.50.2",
     "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-visualizer": "^6.0.3",
     "tslib": "^2.8.1",
     "typescript": "^5.9.2"
   }
