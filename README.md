@@ -186,4 +186,3 @@ Contributions are welcome! Please open an issue or submit a pull request with yo
 
 - Implement rate-limiting for API endpoints.
 - Write tests.
-```
