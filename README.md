@@ -1,4 +1,3 @@
-```markdown
 # EdgePaste
 
 EdgePaste is a simple and lightweight pastebin application built on the [Hono](https://hono.dev/) framework. It allows users to create, retrieve, and delete text-based pastes easily via a web interface or API. The project is designed to work with an S3-compatible storage backend for persistence. EdgePaste is built for edge runtimes.
