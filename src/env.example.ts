@@ -5,4 +5,9 @@ export const S3 = {
   bucket: "bucketname"
 }
 
+export const DEV = {
+  PORT: 3000,
+  HOSTNAME: undefined
+}
+
 export const BASE_URL = "http://localhost:3000"
