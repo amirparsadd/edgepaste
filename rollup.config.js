@@ -11,7 +11,9 @@ export default {
   },
   plugins: [
     resolve(), // Resolves node_modules
-    typescript(), // TypeScript support
+    typescript({
+      declaration: false
+    }), // TypeScript support
     terser(), // Minify the bundle
     visualizer({ filename: 'dist/bundle-analysis.html' }), // Bundle size analysis
   ]
