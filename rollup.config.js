@@ -12,7 +12,10 @@ export default {
   plugins: [
     resolve(), // Resolves node_modules
     typescript({
-      declaration: false
+      declaration: false,
+      sourceMap: false,
+      declarationMap: false,
+      allowImportingTsExtensions: false
     }), // TypeScript support
     terser(), // Minify the bundle
     visualizer({ filename: 'dist/bundle-analysis.html' }), // Bundle size analysis
